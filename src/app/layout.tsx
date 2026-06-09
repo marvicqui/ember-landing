@@ -32,11 +32,6 @@ export const metadata: Metadata = {
     locale: "es_MX",
     type: "website",
   },
-  icons: {
-    icon: "/ember_logo.png",
-    shortcut: "/ember_logo.png",
-    apple: "/ember_logo.png",
-  },
 };
 
 export default function RootLayout({
