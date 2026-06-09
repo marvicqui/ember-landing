@@ -13,8 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000"),
   title: "EMBER Comercializadora y Servicios Especializados",
-  description: "Soluciones integrales de comercialización, infraestructura de acero y tecnología de oficina.",
+  description: "Firma especializada en el desarrollo de infraestructura operativa, suministro de equipamiento comercial y soluciones logísticas de precisión.",
+  openGraph: {
+    title: "EMBER Comercializadora y Servicios Especializados",
+    description: "Infraestructura Industrial, Soluciones de Equipamiento Corporativo y Logística de Distribución.",
+    url: "/",
+    siteName: "EMBER",
+    images: [
+      {
+        url: "/ember_logo.png",
+        width: 800,
+        height: 600,
+        alt: "EMBER Logo",
+      },
+    ],
+    locale: "es_MX",
+    type: "website",
+  },
+  icons: {
+    icon: "/ember_logo.png",
+    shortcut: "/ember_logo.png",
+    apple: "/ember_logo.png",
+  },
 };
 
 export default function RootLayout({
