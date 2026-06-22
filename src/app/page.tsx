@@ -302,12 +302,12 @@ export default function Home() {
               <p className="text-[#33A3FF] font-medium">embercse@gmail.com</p>
             </a>
 
-            <a href="tel:+522293061826" className="bg-white/5 border border-white/10 hover:bg-white/10 transition-colors p-8 rounded-3xl flex flex-col items-center text-center group">
+            <a href="tel:+529221534260" className="bg-white/5 border border-white/10 hover:bg-white/10 transition-colors p-8 rounded-3xl flex flex-col items-center text-center group">
               <div className="w-16 h-16 rounded-full bg-[#0088FF]/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Phone className="w-8 h-8 text-[#33A3FF]" />
               </div>
               <h4 className="text-lg font-bold text-white mb-2">Teléfono de Contacto</h4>
-              <p className="text-[#33A3FF] font-medium">+52 229 306 1826</p>
+              <p className="text-[#33A3FF] font-medium">+52 922 153 4260</p>
             </a>
 
             <div className="bg-white/5 border border-white/10 hover:bg-white/10 transition-colors p-8 rounded-3xl flex flex-col items-center text-center group">
